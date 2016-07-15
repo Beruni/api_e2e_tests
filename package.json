@@ -1,0 +1,19 @@
+{
+  "name": "api_e2e_tests",
+  "version": "1.0.0",
+  "description": "API tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo '=> running tests' && ./node_modules/.bin/jasmine-node spec && echo '=> tests passed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.thoughtworks.net:beruni/api_e2e_tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "frisby": "^0.8.5",
+    "jasmine-node": "^1.14.5"
+  }
+}
